@@ -1,16 +1,5 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚖 InDrive Fare Engine (React Core Logic Project)A real-time ride-hailing fare calculator component built with React JS to master conditional rendering, dynamic state evaluation, and complex logical operations without relying on external UI libraries.
+🚀 Core Architectural FeaturesMulti-Layered Data Architecture: Configured using primitive variables tracking rider profiles, matrix metrics (distance, base rates, wallet capacities), and environmental conditions.Dynamic Surge Pricing Engine:
+Implemented using a strict Nested Ternary Operator pipeline that evaluates real-time environment variables (highTraffic and rain) to dynamically scale price multipliers.Live Mathematical Formulas: Automatically syncs standard booking calculations:$$\text{Standard Bill} = \text{Start Fee} + (\text{Distance} \times \text{Rate Per KM})$$Affordability Guard: Evaluates wallet capacity against the final dynamic bill using comparison operators, saving state as a pure boolean (true/false) for bug-free operations.Conditional UI Alerts: Utilizes Logical AND (&&) short-circuit evaluation to automatically trigger a high-demand alert on the UI only when the surge multiplier climbs greater than 1.2.
+🛠️ Tech Stack & Concepts AppliedFramework: React JS (Functional Components Architecture)JavaScript Logic: Nested Ternary Operators (? :), Short-circuit Evaluation (&&), Comparison Rules.Markup: Semantic JSX / Standard Raw HTML.
+Developer Note: This project focuses purely on underlying engineering logic, state calculations, and robust condition checks in React, keeping layout code clean and distraction-free.
