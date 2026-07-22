@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Muhammad Junaid Hassan",
+    "studentClass": "Grade 12",
+    "gpa": 3.8,
+    "attendance": 92,
+    "profilePic": "https://picsum.photos/id/1011/150"
+  },
+  {
+    "id": 2,
+    "name": "Ali Raza",
+    "studentClass": "Grade 12",
+    "gpa": 3.4,
+    "attendance": 88,
+    "profilePic": "https://picsum.photos/id/1025/150"
+  },
+  {
+    "id": 3,
+    "name": "Zainab Fatima",
+    "studentClass": "Grade 11",
+    "gpa": 3.9,
+    "attendance": 95,
+    "profilePic": "https://picsum.photos/id/64/150"
+  },
+  {
+    "id": 4,
+    "name": "Hamza Ahmed",
+    "studentClass": "Grade 12",
+    "gpa": 2.8,
+    "attendance": 64,
+    "profilePic": "https://picsum.photos/id/1062/150"
+  },
+  {
+    "id": 5,
+    "name": "Ayesha Khan",
+    "studentClass": "Grade 11",
+    "gpa": 3.6,
+    "attendance": 78,
+    "profilePic": "https://picsum.photos/id/338/150"
+  },
+  {
+    "id": 6,
+    "name": "Bilal Siddiqui",
+    "studentClass": "Grade 10",
+    "gpa": 3.1,
+    "attendance": 82,
+    "profilePic": "https://picsum.photos/id/447/150"
+  },
+  {
+    "id": 7,
+    "name": "Sana Malik",
+    "studentClass": "Grade 10",
+    "gpa": 2.4,
+    "attendance": 70,
+    "profilePic": "https://picsum.photos/id/399/150"
+  },
+  {
+    "id": 8,
+    "name": "Usman Ghani",
+    "studentClass": "Grade 12",
+    "gpa": 3.7,
+    "attendance": 89,
+    "profilePic": "https://picsum.photos/id/219/150"
+  },
+  {
+    "id": 9,
+    "name": "Laiba Noor",
+    "studentClass": "Grade 11",
+    "gpa": 3.5,
+    "attendance": 60,
+    "profilePic": "https://picsum.photos/id/566/150"
+  },
+  {
+    "id": 10,
+    "name": "Zayan Mustafa",
+    "studentClass": "Grade 10",
+    "gpa": 2.9,
+    "attendance": 73,
+    "profilePic": "https://picsum.photos/id/646/150"
+  }
+]
