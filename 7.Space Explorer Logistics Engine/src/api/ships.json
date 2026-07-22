@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "shipName": "Apollo Neo X",
+    "destination": "Mars Alpha Base",
+    "fuelLevel": 85,
+    "cargoWeight": 4500,
+    "hyperdriveReady": true
+  },
+  {
+    "id": 2,
+    "shipName": "Galactic Titan",
+    "destination": "Jupiter Ring Station",
+    "fuelLevel": 42,
+    "cargoWeight": 9200,
+    "hyperdriveReady": false
+  },
+  {
+    "id": 3,
+    "shipName": "Stellar Voyager",
+    "destination": "Kepler-186f",
+    "fuelLevel": 95,
+    "cargoWeight": 1200,
+    "hyperdriveReady": true
+  },
+  {
+    "id": 4,
+    "shipName": "Nebula Cargo-9",
+    "destination": "Saturn Mining Outpost",
+    "fuelLevel": 68,
+    "cargoWeight": 8000,
+    "hyperdriveReady": false
+  },
+  {
+    "id": 5,
+    "shipName": "Void Runner",
+    "destination": "Deep Space Vault",
+    "fuelLevel": 20,
+    "cargoWeight": 3100,
+    "hyperdriveReady": true
+  }
+]
