@@ -1,16 +1,20 @@
-# React + Vite
+📊 Multi-File Finance & Tax Module Engine (React Architecture Project)
+A modular multi-file system configuration built using React JS to master the three essential standard JavaScript/ES6 export and import methodologies (Named Exports, End-of-File Default Exports, and Inline Default Exports).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Architectural & Modular Engineering
+File Module 1 (TaxUtilities.jsx): Employs Named Exports (Method 1) to package multiple logic modules (CalculateTax and TaxAlert) from a single file, successfully establishing variable calculations mapping a flat 18% General Sales Tax (GST) rule.
 
-Currently, two official plugins are available:
+File Module 2 (BudgetComponent.jsx): Implements an End-of-File Default Export (Method 2) isolating internal user budgeting metrics, using automated logical gates (&&) to trigger asset savings warnings under the specified limits.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+File Module 3 (UserProfile.jsx): Demonstrates Inline Default Export (Method 3) syntax to wrap profile account configurations cleanly at instantiation.
 
-## React Compiler
+Central Assembly Layer (App.jsx): Acts as the master compilation engine, handling named curly-bracketed imports {} alongside aliases/custom-named default components seamlessly in a single pipeline.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠️ Tech Stack & Concepts Applied
+Framework: React JS (Multi-File Functional Component Layout)
 
-## Expanding the ESLint configuration
+ES6/JavaScript Compilation: Named Exports, Default Exports, Named Alias Imports.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Logical Gateways: Dynamic bracket rendering expressions, Logical AND (&&) short-circuits.
+
+Markup: Component Fragment nesting architectures.
