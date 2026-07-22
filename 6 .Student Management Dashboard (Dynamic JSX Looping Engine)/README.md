@@ -1,16 +1,22 @@
-# React + Vite
+🎓 Student Management Dashboard (Dynamic JSX Looping Engine)
+A dynamic data-rendering administrative interface engineered in React JS to master array data manipulation, JSON module parsing, and clean presentation layer structures inside JSX expression scopes.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Architectural & Engineering Highlights
+Dynamic JSON Integration: Successfully decoupled component logic from hardcoded state by establishing a multi-layered data pipeline parsing an external array of 10 complete student profiles containing distinct identity schemas (id, name, studentClass, gpa, attendance, profilePic).
 
-Currently, two official plugins are available:
+JSX Map Pipeline: Implemented structural rendering via the .map() method, enforcing optimized runtime rendering by allocating unique, rigid tracking keys (key={student.id}) to elements.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Inline Logic Gate Execution:
 
-## React Compiler
+Ternary Conditions: Evaluates user performance variables to automatically flag qualifying candidates as 🏆 Honor Roll Student or Regular Status dynamically based on academic boundaries.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Short-Circuit Alerts (&&): Monitors live percentage fields to automatically apply operational warnings for profiles slipping under specified requirements.
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack & Concepts Applied
+Framework: React JS (Functional Architecture)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Data Parsing: ES6 Array Methods (.map()), Module Loading (.json).
+
+Conditional Gateways: Short-circuit validation (&&), Ternary Expressions (? :).
+
+Media Ingestion: Dynamic source binding for placeholder asset structures.
