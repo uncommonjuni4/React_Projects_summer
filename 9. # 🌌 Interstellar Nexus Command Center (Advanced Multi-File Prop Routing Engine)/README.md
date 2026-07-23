@@ -1,16 +1,28 @@
-# React + Vite
+# 🌌 Interstellar Nexus Command Center (Advanced Multi-File Prop Routing Engine)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An enterprise-grade space operations monitoring system engineered in **React JS** to master deep component tree nesting, unidirectional data flow synchronization, and strict prop destructuring patterns across multi-file architectures.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Advanced Engineering Milestones Mastered
 
-## React Compiler
+* **Explicit Prop Destructuring `{}`:** Standardized variable isolation across independent utility component scopes, solving runtime parameter access bugs.
+* **Multi-Layer Component Pipelines:** Engineered a decoupled data routing pipeline from the main framework tree (`App.jsx` ➔ `SectorCard` ➔ sub-modules).
+* **Cross-Wiring Corrections:** Restructured static data mappings ensuring accurate telemetry allocation (`energyGrid`, `lifeSupport`, and `dockedFleets`) directly to their dedicated layout targets.
+* **Dynamic Data Rendering Gates:** Deployed complex inline nested ternary systems and safe explicit `.map()` loops containing unique structural identifiers (`key`) to secure seamless, warning-free layout reconciliation.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📁 Modular Production Architecture
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── api/
+│   └── stationData.json        # Central System Matrix Payload (JSON Database)
+├── components/
+│   ├── SectorCard.jsx          # Default Layout Orchestration Layer
+│   ├── EnergyGridModule.jsx    # Named Export: Power Telemetry Core
+│   ├── LifeSupportModule.jsx   # Named Export: Atmospheric Validation Logic
+│   └── FleetManifest.jsx       # Named Export: Docking Array Loop Engine
+├── App.jsx                     # Core State Compiling Source Target
+└── main.jsx                    # React Virtual DOM Anchor Target
