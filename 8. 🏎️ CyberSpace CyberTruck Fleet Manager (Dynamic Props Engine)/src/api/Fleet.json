@@ -1,0 +1,29 @@
+[
+  {
+    "id": "CT-001",
+    "model": "CyberTruck Alpha V1",
+    "driver": "Asim Khan",
+    "batteryPercentage": 92,
+    "currentLoad": 6500,
+    "autopilotReady": true,
+    "destination": "Mars Mining Station"
+  },
+  {
+    "id": "CT-002",
+    "model": "CyberTruck Heavy Cargo",
+    "driver": "Zainab Malik",
+    "batteryPercentage": 35,
+    "currentLoad": 9500,
+    "autopilotReady": false,
+    "destination": "Lunar Base Omega"
+  },
+  {
+    "id": "CT-003",
+    "model": "CyberScout Stealth",
+    "driver": "Juni Developer",
+    "batteryPercentage": 18,
+    "currentLoad": 2200,
+    "autopilotReady": true,
+    "destination": "Orbital Station 9"
+  }
+]
