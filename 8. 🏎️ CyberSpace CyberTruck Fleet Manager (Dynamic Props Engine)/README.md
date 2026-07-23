@@ -1,16 +1,27 @@
-# React + Vite
+# 🏎️ CyberSpace CyberTruck Fleet Manager (Dynamic Props Engine)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An enterprise-grade fleet administration console engineered in **React JS** to master unidirectional data flow pipelines, deep prop drilling isolation, and custom child macro injections.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Advanced Concepts Implemented
 
-## React Compiler
+*   **State & Prop Telemetry:** Engineered complex component communication flows by driving raw database payloads down the DOM tree via React props.
+*   **Decoupled Functional Ingestion:** Designed isolated functional named components (`StatusCard` and `AutopilotIndicator`) that strictly process isolated reactive parameters.
+*   **Structural Optimization:** Eliminated invalid HTML validation nesting by centralizing structural layout trees directly inside the orchestrator mapping module.
+*   **Multi-Tier Filtration Logic:** Deployed conditional expression trees and performance-safe short-circuit (`&&`) safety gates to control live critical warning assets instantly.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📁 Applied Project Tree
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── api/
+│   └── Fleet.json              # Central Vehicle Database Payload
+├── components/
+│   ├── FleetGrid.jsx           # Core Array Iterator & Orchestrator Grid
+│   ├── StatusCard.jsx          # Isolated Battery Telemetry Engine
+│   └── AutopilotIndicator.jsx  # Security Authorization & Destination Utility
+├── App.jsx                     # Top-Level Root Data Ingestion Source
+└── main.jsx                    # Virtual DOM Anchor Mounting Target
