@@ -1,0 +1,29 @@
+[
+  {
+    "sectorId": "SEC-OMEGA",
+    "sectorName": "Omega Nexus Hydro-Docks",
+    "operationalStatus": "Active",
+    "energyGrid": { "consumption": 89, "source": "Dark Matter Reactor" },
+    "lifeSupport": { "oxygenLevel": 94, "temperatureCelsius": 22 },
+    "securityClearance": "Level-5 Alpha",
+    "dockedFleets": ["Vanguard-6", "Nebula-Stalker", "Solar-Flare"]
+  },
+  {
+    "sectorId": "SEC-MINING",
+    "sectorName": "Asteroid Core Excavation Grid",
+    "operationalStatus": "Critical Hazard",
+    "energyGrid": { "consumption": 42, "source": "Solar Cells Grid" },
+    "lifeSupport": { "oxygenLevel": 38, "temperatureCelsius": -10 },
+    "securityClearance": "Level-2 Restricted",
+    "dockedFleets": ["Driller-Alpha"]
+  },
+  {
+    "sectorId": "SEC-BIO",
+    "sectorName": "Bio-Dome Terraforming Laboratory",
+    "operationalStatus": "Maintenance Mode",
+    "energyGrid": { "consumption": 61, "source": "Fusion Core Engine" },
+    "lifeSupport": { "oxygenLevel": 88, "temperatureCelsius": 26 },
+    "securityClearance": "Level-4 Confidential",
+    "dockedFleets": []
+  }
+]
