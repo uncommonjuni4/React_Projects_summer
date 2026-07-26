@@ -1,0 +1,26 @@
+.Nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e24;
+    padding: 15px  30px;
+
+}
+
+.nav-h1{
+      color: #61dafb;
+      font-size: 24px;
+}
+
+
+.Nav-main span {
+    color: #ffff;
+    margin-left: 20px;
+
+}
+
+.Nav-main a{
+    color: #ffff;
+    margin-left: 20px;
+    text-decoration: none;
+}
