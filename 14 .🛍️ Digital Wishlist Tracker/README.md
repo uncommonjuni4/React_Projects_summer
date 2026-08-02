@@ -1,16 +1,33 @@
-# React + Vite
+# 🛍️ Digital Wishlist Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and lightweight web application built with **React JS** to help users track their dream items and calculate their total estimated budget in real-time. 
 
-Currently, two official plugins are available:
+This project was developed during my intensive summer coding sprint to practice advanced state management, component composition, and efficient array handling in React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*   **Dual-Controlled Inputs:** Smooth input tracking for both Item Name and Estimated Price.
+*   **Smart Duplicate Prevention:** Uses case-insensitive validation to ensure the same item isn't added twice.
+*   **Dynamic Data Storage:** Efficiently manages data using an array of objects structured with immutable state updates.
+*   **Real-time Budget Calculation:** Utilizes JavaScript's `.reduce()` method to dynamically sum up the total wishlist value instantly.
+*   **Interactive Row Actions:** Custom components with smooth action buttons to manage item states.
+*   **Modern Layout:** Responsive horizontal card structure that adapts cleanly from desktop to mobile screens.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack & Concepts Applied
+
+*   **Frontend:** React JS, JavaScript (ES6+), HTML5, CSS3
+*   **React Hooks:** `useState` (State hooks for isolated and collection management)
+*   **Array Methods:** `.map()` for dynamic rendering, `.filter()` for clean item deletion, and `.reduce()` for budget totals.
+*   **Component Architecture:** Clean separation between Form layout and List Item components using unidirectional data flow (Props).
+
+---
+
+## 🚀 How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/digital-wishlist-tracker.git](https://github.com/YOUR_USERNAME/digital-wishlist-tracker.git)
