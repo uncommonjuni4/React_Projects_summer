@@ -1,0 +1,157 @@
+/* Container Box */
+.DigitalForm {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 24px;
+    max-width: 900px;
+    margin: 30px auto;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    border: 1px solid #6c747a;
+    
+   
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-end; /* Labels upar rahein aur button inputs ke sath level ho jaye */
+    gap: 16px; /* Elements ke beech ka gap */
+}
+
+/* Form Groups (input1 & input2 wrappers) */
+.input1, .input2 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1; /* Donon inputs barabar ki jagah ghein ge */
+}
+
+/* Typography for Labels */
+.input1 label, .input2 label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4a5568;
+}
+
+/* Input Fields Styling */
+.input1 input, .input2 input {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 15px;
+    color: #2d3748;
+    background-color: #f7fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+}
+
+/* Input Focus States */
+.input1 input:focus, .input2 input:focus {
+    background-color: #ffffff;
+    border-color: #3182ce;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.15);
+}
+
+/* Premium Button Styling aligned in row */
+.DigitalForm button {
+    background-color: #3182ce;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 24px; /* Row ke hisab se padding adjustment */
+    height: 46px; /* Input box ki height ke barabar kiya taake alignment kharab na ho */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    white-space: nowrap; /* Button ka text break na ho ek hi line mein rahe */
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 6px rgba(49, 130, 206, 0.15);
+}
+
+/* Button Hover State */
+.DigitalForm button:hover {
+    background-color: #2b6cb0;
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(49, 130, 206, 0.25);
+}
+
+/* 📱 Responsive view for Mobile (Auto-stacking) */
+@media (max-width: 600px) {
+    .DigitalForm {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .DigitalForm button {
+        height: auto;
+        padding: 14px;
+    }
+}
+
+
+
+
+.ul{
+    flex-direction: column;
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 12px;
+  
+    max-width: 900px;
+   
+ 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+
+   
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-end; /* Labels upar rahein aur button inputs ke sath level ho jaye */
+    gap: 16px;
+}
+
+
+
+.list{
+        display: flex;
+    align-items: center;
+    gap: 78px;
+    border: 1px solid #6c747a;
+      padding: 10px;
+      border-radius: 14px;
+      
+}
+
+.list p{
+    font-family: cursive;
+}
+
+
+.btn-add{
+    border-radius: 50%;
+    height: 40px;
+    width: 40;
+    font-size: 30px;
+    align-items: center;
+    background-color: rgb(45, 71, 6);
+    /* padding: 3x 4px; */
+}
+
+.add{
+    color: #e2e8f0;
+    border: none;
+}
+
+
+.btn-cancel{
+    border-radius: 50%;
+    height: 40px;
+    width: 40;
+    font-size: 30px;
+    align-items: center;
+    background-color: rgb(250, 49, 13);
+    /* padding: 3x 4px; */
+}
+
+.cancel{
+    color: #e2e8f0;
+    border: none;
+}
+
